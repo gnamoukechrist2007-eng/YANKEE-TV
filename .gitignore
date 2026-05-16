@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+dist
+*.tsbuildinfo
+next-env.d.ts
+
+# env (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# logs
+*.log
+npm-debug.log*
+
+# build
+build
