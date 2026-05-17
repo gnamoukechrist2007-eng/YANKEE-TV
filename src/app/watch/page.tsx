@@ -161,7 +161,6 @@ export default async function Watch({
     <iframe
       title="player"
       src={`/play?${params.toString()}`}
-      sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
       allow="autoplay; fullscreen; encrypted-media"
       style={{
         position: "fixed",

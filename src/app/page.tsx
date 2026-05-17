@@ -16,7 +16,6 @@ export default async function Home() {
     <iframe
       title="player"
       src="/play"
-      sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
       allow="autoplay; fullscreen; encrypted-media"
       style={{
         position: "fixed",
